@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+}
+
+.topnav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    padding-left: 30px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+li {
+    list-style: none ;
+}
