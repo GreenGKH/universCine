@@ -1,9 +1,8 @@
 body {
-    background-image: linear-gradient(to bottom, rgb(175, 23, 23), #424242, #040404);
+    /* background-image: linear-gradient(to bottom, rgb(175, 23, 23), #424242, #040404);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     min-height: 2000px;
-    margin: 0;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -40,12 +39,25 @@ nav li {
     align-self: center;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #6c1b1b;
+}
+
 .header .container {
     display: flex;
     gap: 5em;
     justify-content: center;
 }
 
+.activePage {
+    background-color: black;
+}
+
+.activePage:hover {
+    background-color: #b12b2b;
+}
 
 
 /* -------------------------------------- */
